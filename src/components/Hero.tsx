@@ -4,20 +4,13 @@ import Icon from "@/components/ui/icon";
 const Hero = () => {
   return (
     <section className="relative h-screen flex items-center justify-center overflow-hidden">
-      {/* Video Background */}
+      {/* Background Image */}
       <div className="absolute inset-0 z-0">
-        <video
-          autoPlay
-          muted
-          loop
-          playsInline
+        <img
+          src="https://images.unsplash.com/photo-1560518883-ce09059eeffa?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2073&q=80"
+          alt="Современные новостройки ТавридаДом"
           className="w-full h-full object-cover"
-        >
-          <source
-            src="https://player.vimeo.com/external/434045526.sd.mp4?s=c27eecc69fab9f049a6df2b7096f6e1a6ed6c4ed"
-            type="video/mp4"
-          />
-        </video>
+        />
         <div className="absolute inset-0 bg-tavrida-blue/40"></div>
       </div>
 
